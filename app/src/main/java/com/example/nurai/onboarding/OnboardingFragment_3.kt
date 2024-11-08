@@ -1,4 +1,4 @@
-package com.example.nurai
+package com.example.nurai.onboarding
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.findNavController
+import com.example.nurai.R
 import com.example.nurai.databinding.FragmentOnboarding3Binding
 
 class OnboardingFragment_3 : Fragment() {
@@ -62,24 +63,48 @@ class OnboardingFragment_3 : Fragment() {
     private fun resetColor(view: View) {
         when (view.id) {
             binding.firstFrame.id -> {
-                binding.firstFrame.background = ContextCompat.getDrawable(requireContext(), R.drawable.bg_bt_16)
-                binding.textView1.setTextColor(ContextCompat.getColor(requireContext(), R.color.black))
-                binding.imageView1.drawable.setTint(ContextCompat.getColor(requireContext(), R.color.border_grey))
+                binding.firstFrame.background = ContextCompat.getDrawable(requireContext(),
+                    R.drawable.bg_bt_16
+                )
+                binding.textView1.setTextColor(ContextCompat.getColor(requireContext(),
+                    R.color.black
+                ))
+                binding.imageView1.drawable.setTint(ContextCompat.getColor(requireContext(),
+                    R.color.border_grey
+                ))
             }
             binding.secondFrame.id -> {
-                binding.secondFrame.background = ContextCompat.getDrawable(requireContext(), R.drawable.bg_bt_16)
-                binding.textView2.setTextColor(ContextCompat.getColor(requireContext(), R.color.black))
-                binding.imageView2.drawable.setTint(ContextCompat.getColor(requireContext(), R.color.border_grey))
+                binding.secondFrame.background = ContextCompat.getDrawable(requireContext(),
+                    R.drawable.bg_bt_16
+                )
+                binding.textView2.setTextColor(ContextCompat.getColor(requireContext(),
+                    R.color.black
+                ))
+                binding.imageView2.drawable.setTint(ContextCompat.getColor(requireContext(),
+                    R.color.border_grey
+                ))
             }
             binding.thirdFrame.id -> {
-                binding.thirdFrame.background = ContextCompat.getDrawable(requireContext(), R.drawable.bg_bt_16)
-                binding.textView3.setTextColor(ContextCompat.getColor(requireContext(), R.color.black))
-                binding.imageView3.drawable.setTint(ContextCompat.getColor(requireContext(), R.color.border_grey))
+                binding.thirdFrame.background = ContextCompat.getDrawable(requireContext(),
+                    R.drawable.bg_bt_16
+                )
+                binding.textView3.setTextColor(ContextCompat.getColor(requireContext(),
+                    R.color.black
+                ))
+                binding.imageView3.drawable.setTint(ContextCompat.getColor(requireContext(),
+                    R.color.border_grey
+                ))
             }
             binding.fourthFrame.id -> {
-                binding.fourthFrame.background = ContextCompat.getDrawable(requireContext(), R.drawable.bg_bt_16)
-                binding.textView4.setTextColor(ContextCompat.getColor(requireContext(), R.color.black))
-                binding.imageView4.drawable.setTint(ContextCompat.getColor(requireContext(), R.color.border_grey))
+                binding.fourthFrame.background = ContextCompat.getDrawable(requireContext(),
+                    R.drawable.bg_bt_16
+                )
+                binding.textView4.setTextColor(ContextCompat.getColor(requireContext(),
+                    R.color.black
+                ))
+                binding.imageView4.drawable.setTint(ContextCompat.getColor(requireContext(),
+                    R.color.border_grey
+                ))
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.example.nurai
+package com.example.nurai.onboarding
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.findNavController
+import com.example.nurai.R
 import com.example.nurai.databinding.FragmentOnboarding5Binding
 
 class OnboardingFragment_5 : Fragment() {
@@ -55,7 +56,9 @@ class OnboardingFragment_5 : Fragment() {
             icon.visibility = View.INVISIBLE
             selectedFrames[frame] = false
         } else {
-            frame.background = ContextCompat.getDrawable(requireContext(), R.drawable.bg_bt_16_clicked)
+            frame.background = ContextCompat.getDrawable(requireContext(),
+                R.drawable.bg_bt_16_clicked
+            )
             label.setTextColor(ContextCompat.getColor(requireContext(), R.color.primary_blue))
             icon.visibility = View.VISIBLE
             selectedFrames[frame] = true

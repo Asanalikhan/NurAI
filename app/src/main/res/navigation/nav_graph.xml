@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/onboardingFragment_1"
-        android:name="com.example.nurai.OnboardingFragment_1"
+        android:name="com.example.nurai.onboarding.OnboardingFragment_1"
         android:label="fragment_onboarding_1"
         tools:layout="@layout/fragment_onboarding_1" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/onboardingFragment_2"
-        android:name="com.example.nurai.OnboardingFragment_2"
+        android:name="com.example.nurai.onboarding.OnboardingFragment_2"
         android:label="fragment_onboarding_2"
         tools:layout="@layout/fragment_onboarding_2" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/onboardingFragment_3"
-        android:name="com.example.nurai.OnboardingFragment_3"
+        android:name="com.example.nurai.onboarding.OnboardingFragment_3"
         android:label="fragment_onboarding_3"
         tools:layout="@layout/fragment_onboarding_3" >
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/onboardingFragment_4"
-        android:name="com.example.nurai.OnboardingFragment_4"
+        android:name="com.example.nurai.onboarding.OnboardingFragment_4"
         android:label="fragment_onboarding_4"
         tools:layout="@layout/fragment_onboarding_4" >
         <action
@@ -49,7 +49,7 @@
     </fragment>
     <fragment
         android:id="@+id/onboardingFragment_5"
-        android:name="com.example.nurai.OnboardingFragment_5"
+        android:name="com.example.nurai.onboarding.OnboardingFragment_5"
         android:label="fragment_onboarding_5"
         tools:layout="@layout/fragment_onboarding_5" >
         <action
@@ -58,7 +58,7 @@
     </fragment>
     <fragment
         android:id="@+id/onboardingFragment_6"
-        android:name="com.example.nurai.OnboardingFragment_6"
+        android:name="com.example.nurai.onboarding.OnboardingFragment_6"
         android:label="fragment_onboarding_6"
         tools:layout="@layout/fragment_onboarding_6" >
         <action
@@ -67,7 +67,7 @@
     </fragment>
     <fragment
         android:id="@+id/onboardingFragment_7"
-        android:name="com.example.nurai.OnboardingFragment_7"
+        android:name="com.example.nurai.onboarding.OnboardingFragment_7"
         android:label="fragment_onboarding_7"
         tools:layout="@layout/fragment_onboarding_7" >
         <action
@@ -91,7 +91,7 @@
     </fragment>
     <fragment
         android:id="@+id/healthFragment"
-        android:name="com.example.nurai.HealthFragment"
+        android:name="com.example.nurai.health.HealthFragment"
         android:label="fragment_health"
         tools:layout="@layout/fragment_health" >
         <action
